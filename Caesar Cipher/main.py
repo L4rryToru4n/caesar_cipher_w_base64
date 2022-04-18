@@ -134,6 +134,7 @@ def caesar_decipher_bruteforce(ciphered_text):
         for letter in list(ciphered_text):
             decipher += (str(chr(ord(letter) - num_key)))
         decipher_list.append(decipher)
+        decipher=""
     return decipher_list
 
 
